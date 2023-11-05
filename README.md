@@ -8,3 +8,6 @@ You will need to download the libs folder from here
 
 and extract it into the root folder like so
 ![image](https://github.com/john1234brown/StreamPal-File-Provider-Tool-Electron/assets/8825800/677c92c8-58ed-43c8-809a-b8476bbca934)
+
+then go to https://dist.ipfs.tech/kubo/
+and update the binary file for your distro
