@@ -1,0 +1,70 @@
+{
+  "name": "streampal-file-provider-node",
+  "version": "1.0.0",
+  "description": "P2P file providing Node and Utitilty Tool in one! For Movies and Tv Shows! Uses Smee Channels along with IPFS as a gateway for the files to be provided to the peers",
+  "main": "index.js",
+  "author": "John Brown",
+  "email": "john1234brown23@gmail.com",
+  "homepage": "https://github.com/john1234brown/",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "smee-client": "^1.2.3"
+  },
+  "scripts": {
+    "postinstall": "electron-builder install-app-deps",
+    "install": "npm install express cors smee-client electron && npm run installtwo",
+    "installtwo": "npm install electron-builder --save-dev",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "streampal.io.github.john1234brown.file-provider-tool",
+    "extraFiles": [
+      "assets",
+      "fonts",
+      "gui",
+      "lib/*.js",
+      "lib/${platform}",
+      "config.json"
+    ],
+    "files": [
+      "node_modules/**/*",
+      "config/**/*",
+      "index.js",
+      "package.json"
+    ],
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "category": "tools",
+      "maintainer": "John Brown",
+      "target": [
+        "AppImage"
+      ],
+      "icon": "build/backgroundBig.png"
+    },
+    "win": {
+      "target": "NSIS",
+      "icon": "build/icon.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^23.2.1",
+    "electron-builder": "^23.6.0"
+  }
+}

@@ -1,0 +1,37 @@
+{
+ "peerId": null,
+ "providerUsername": "Theres-No-Way-Back-Now",
+ "smee": false,
+ "replit": true,
+ "ipns": "k51qzi5uqu5djlqdcqfuxxi1bwu1zar0lpc8osjfzqzmji5q9o5rmp6hwqnck7",
+ "ipfsDesktopInstalled": false,
+ "repoDir": "/home/kali/external/StreampalRepo/",
+ "listOfRootFolderNames": [
+  "exampleRootFolder",
+  "examplerootMini",
+  "example2",
+  "example3"
+ ],
+ "ipfsFolders": [
+  "exampleRootFolder",
+  "examplerootMini",
+  "example2",
+  "example3"
+ ],
+ "listOfipns": [
+  "k51qzi5uqu5dhiyehp8kev5bkdfjsaokah8kwbfhbx4gw4grh4b3s8soavkyj4",
+  "k51qzi5uqu5djklhubfzv7zijh3rw6258f7xh0fssxzt5lgub2f3l7s1806u37",
+  "k51qzi5uqu5dlc81bcuspyus9z0b1qk6k4q4nql5c5yhz06i37rzl9b4czn089",
+  "k51qzi5uqu5dhnykt7xd2028gx15xummsuvy18azgytxapmliginldqgvzgsyj"
+ ],
+ "ipnsKeys": [
+  "self",
+  "key1",
+  "key2",
+  "key3"
+ ],
+ "pingCheck": true,
+ "maxUploadThreads": 4,
+ "maximumAmountOfFilesAndFoldersToSearchThroughOnDragAndDrops": 20,
+ "repoAutoSearchIndexing": true
+}
