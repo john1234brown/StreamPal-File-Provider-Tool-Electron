@@ -5,7 +5,7 @@ I Hope you enjoy this neat little tool and hope you enjoy using the streampal p2
 
 
 You will need to download the libs folder from here
-
+https://drive.google.com/file/d/1t-uzTSnEqXAMgxhHSlUvIcIDEJbLuh_0/view?usp=drive_link
 and extract it into the root folder like so
 ![image](https://github.com/john1234brown/StreamPal-File-Provider-Tool-Electron/assets/8825800/677c92c8-58ed-43c8-809a-b8476bbca934)
 
