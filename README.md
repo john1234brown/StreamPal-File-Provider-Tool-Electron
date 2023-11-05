@@ -10,4 +10,5 @@ and extract it into the root folder like so
 ![image](https://github.com/john1234brown/StreamPal-File-Provider-Tool-Electron/assets/8825800/677c92c8-58ed-43c8-809a-b8476bbca934)
 
 then go to https://dist.ipfs.tech/kubo/
-and update the binary file for your distro
+and update the binary file for your distro and replace the binary file in the lib folder for your distro if your not familiar then look here
+https://nodejs.org/api/process.html#processplatform and also here https://nodejs.org/api/os.html#osarch
